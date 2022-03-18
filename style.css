@@ -1,0 +1,46 @@
+.flex{
+    max-width: 1386px;
+    font-family: 'Roboto', sans-serif;
+    background-color: aliceblue;
+    margin: 0 auto;
+    display: flex;
+    padding: 128px 122px 105px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.around{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color:#12C0DD;
+    margin: 0 auto;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 24px;
+    color: #000;
+    text-align: center;
+}
+
+p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000;
+    text-align: center;
+}
+
+.wrap{
+    flex-basis: 277px;   
+}
+
+.wrap:nth-child(2){
+    margin: 0 155px 68px;
+}
+
+.wrap:nth-child(n+4){   
+    margin:0 84px;
+}
+
